@@ -9,7 +9,7 @@ import java.net.*;
 
 /**
  *
- * @author --> Escriu el teu correu electrònic
+ * @author --> 15585206.clot@fje.edu
  */
 public class Prjava02 {
 
@@ -25,7 +25,12 @@ public class Prjava02 {
             System.out.println("Nom de l'usuari: " + System.getProperty("user.name"));
             System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
             System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
+<<<<<<< HEAD
             System.out.println("Versió OS: " + System.getProperty("os.version"));	
+=======
+            System.out.println("Versió OS: " + System.getProperty("os.version"));
+            System.out.println("Creació d'una branca del projecte prjava02");
+>>>>>>> branca00
 	    System.out.println("Afegint més codi des de la branca00 del projecte prjava02");
         }
         catch (IOException e) {
